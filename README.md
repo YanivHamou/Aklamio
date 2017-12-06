@@ -28,8 +28,13 @@ Project Structure:
 -Data:  Hold Csv files - one Year History
 -Models: Hold Models for rpresent the Stock market 
 - stock
-- stockData: suggestTradesPaths() ,getHistoricalData() ,add_record()
-- user  updatePortfolioShares() ,updatePortfolioBalance()
+- stockData: 
+- suggestTradesPaths() 
+- getHistoricalData() 
+- add_record()
+- user :
+- updatePortfolioShares() 
+- updatePortfolioBalance()
 - portfolio
 - market
 - Scripts  : 
@@ -37,7 +42,7 @@ Project Structure:
 - main.py - main script - execute all the logic
 
 Missing :
--Create unit testing
--Apply error handling
+- Create unit testing
+- Apply error handling
 
 	
