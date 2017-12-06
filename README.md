@@ -25,24 +25,19 @@ The DAX is a blue chip stock market
 index consisting of the 30 major German companies trading on the Frankfurt Stock Exchange
 
 Project Structure:
-Data	- Hold Csv files - one Year History
-Models	- Hold Models for rpresent the Stock market 
+-Data:  Hold Csv files - one Year History
+-Models: Hold Models for rpresent the Stock market 
 - stock
-- stockData
---suggestTradesPaths()
---getHistoricalData()
-add_record()
-- user
---updatePortfolioShares()
---updatePortfolioBalance()
+- stockData: suggestTradesPaths() ,getHistoricalData() ,add_record()
+- user  updatePortfolioShares() ,updatePortfolioBalance()
 - portfolio
 - market
-- scripts  
---utils - holds  utils function
---main - main script - execute all the logic
+- Scripts  : 
+- utils.py - holds  utils function 
+- main.py - main script - execute all the logic
 
 Missing :
-Create unit testing
-Apply error handling
+-Create unit testing
+-Apply error handling
 
 	
