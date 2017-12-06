@@ -3,18 +3,16 @@ import itertools as it
 import utils
 import pandas as pd
 import errno
-
 from models import stock
 
 class market(object):
 
-    def __init__(self,name,users):
-        #self.name=name
-        self.users=''
+    def __init__(self,name,stocks,users):
+        self.name=name
+        self.users=users
         self.stocks=[]
+        self.tradeValue = 3 #EUR
 
-        #initialized stocks available for Trade
-        # include Past Data
-        for stockName in name:
-            self.stocks.append(stock.stock(stockName))
-
+        # init Stocks - include stockData 
+        for s in stocks:
+            self.stocks.append(stock.stock(s))
