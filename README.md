@@ -1,4 +1,4 @@
-# Aklamio
+	# Aklamio
 Home Task - Data engineer @Aklamio
 
 Task: Build a simple stock trading tool in python:
@@ -29,12 +29,12 @@ Project Structure:
 -Models: Hold Models for rpresent the Stock market 
 - stock
 - stockData: 
-- suggestTradesPaths() 
-- getHistoricalData() 
-- add_record()
+ - suggestTradesPaths() 
+ - getHistoricalData() 
+ - add_record()
 - user :
-- updatePortfolioShares() 
-- updatePortfolioBalance()
+ - updatePortfolioShares() 
+ - updatePortfolioBalance()
 - portfolio
 - market
 - Scripts  : 
